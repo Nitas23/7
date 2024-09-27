@@ -1,0 +1,16 @@
+my_dict={'Andrey':1982,'Alex':1988,'Kate':1986}
+print(my_dict)
+print(my_dict['Andrey'])
+print(my_dict.get('Michel'))
+my_dict.update({'food':1960,
+                     'wood':1959})
+print(my_dict)
+a=my_dict.pop('Andrey')
+print(a)
+print(my_dict)
+my_set={1,2,3,True,1,2,3,'pens'}
+print(my_set)
+my_set.add(5)
+my_set.add(6)
+my_set.discard(1)
+print(my_set)
